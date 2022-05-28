@@ -1,6 +1,30 @@
 .App {
   text-align: center;
+  border:1px solid black;
+  margin:auto;
+  width:35%;
+  height:75%;
+  margin-top:50px;
+  padding: 20px;
+
 }
+.main_div  {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  /* gap:70px; */
+  
+}
+.main_div > div {
+  text-align: center;
+  cursor: pointer;
+  width:100%;
+  border:1px solid black;
+  padding: 10px;
+  /* border:1px solid blue; */
+ 
+}
+
 
 .App-logo {
   height: 40vmin;
